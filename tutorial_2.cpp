@@ -196,6 +196,14 @@ int main()
     c_yt_2.OwnerName = "Ema";
     */
     
+    string c_name = c_yt_2.get_name(); // get the (current) name;
+    cout << c_name << "\n"; // (current) name;
+    c_yt_2.set_name("Kitchen recipes"); // set the (new) name;
+    cout << c_name << "\n"; // (old) name;
+    c_name = c_yt_2.get_name(); // get the (new) name;
+    cout << c_name << "\n\n\n"; // (new) name;
+
+    c_yt_2.get_info();
 
     // !! 5.Polymorphism:
     //
